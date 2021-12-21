@@ -1,0 +1,61 @@
+body{
+    background: url(https://cdna.artstation.com/p/assets/images/images/015/770/964/large/corentin-wunsche-corentin-wunsche-simonstalenhag-by-corentinwunsche-parking-01.jpg?1549569029);
+    
+}
+
+.container{
+    width: 300px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135,0.37);
+    backdrop-filter: blur(0.3px);
+    -webkit-backdrop-filter: blur(0.3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255, 255, 0.18);
+    margin: 80px auto;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+form{
+    margin: 30px;
+}
+label{
+    display: block;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    width: 80%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    opacity: 0.4;
+}
+button{
+    border: none;
+    background-color: rgb(241, 7, 241);
+    color: whitesmoke;
+    padding: 5px 90px;
+   margin-top: 10px;
+   border-radius: 10px;
+   font-size: 17px;
+   cursor: pointer;
+}
+button:hover{
+    background-color: rgb(228, 127, 228);
+  
+}
+a{
+    text-decoration: none;
+    margin-left: 30%;
+    color: white;
+}
